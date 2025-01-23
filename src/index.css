@@ -17,7 +17,10 @@ body {
 }
 .index-nav {
   margin: 20px ;
+  line-height: 30px;
   font-size: 18px;
+  display: flex;
+  flex-direction: column;
 }
 .index-link, index-link:visited {
   color: rgba(255, 255, 255, 0.87);

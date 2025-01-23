@@ -1,0 +1,20 @@
+:root {
+    background: white;
+}
+.travel-header {
+    width: 100%;
+    height: 55px;
+    background: #F55A5A;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.travel-header > img {
+    margin-right: 7px;
+    width: 24px
+}
+.travel-header > h1 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
