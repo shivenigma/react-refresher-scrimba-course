@@ -1,5 +1,9 @@
-:root {
-    background: white;
+.app-body-travel {
+}
+.travel-container {
+    margin: 45px 40px 0 40px;
+    display: grid;
+    grid-gap: 20px;
 }
 .travel-header {
     width: 100%;
@@ -12,9 +16,49 @@
 }
 .travel-header > img {
     margin-right: 7px;
-    width: 24px
+    width: 24px;
 }
 .travel-header > h1 {
     font-size: 0.9rem;
     font-weight: 500;
+}
+.travel-entry-item {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-gap: 20px;
+    width: fit-content;
+    padding-bottom: 18px;
+    border-bottom: solid 1px #F5F5F5;
+}
+.travel-entry-item > img {
+    height: 168px;
+    width: 125px;
+    border-radius: 5px;
+}
+.travel-entry-heading {
+    display: flex;
+    margin-top: 15px;
+    font-size: 11px;
+    align-items: center;
+}
+.travel-entry-heading > img {
+    height: 10px;
+    margin-right: 5px;
+}
+.travel-entry-heading > span {
+    text-transform: uppercase;
+    margin-right: 12px;
+}
+.travel-entry-heading > a, .travel-entry-heading > a:visited {
+    color: #918E9B;
+}
+.travel-entry-destination {
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+.travel-entry-content {
+    font-size: 11px;
+}
+.travel-entry-date {
+    font-weight: bold;
 }

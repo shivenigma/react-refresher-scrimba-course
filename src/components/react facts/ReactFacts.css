@@ -1,3 +1,9 @@
+.app-body-facts {
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #282d35;
+    height: 100% !important;
+}
 /*Nav bar styles*/
 /*TODO: Refactor and move to right place*/
 .nav {
