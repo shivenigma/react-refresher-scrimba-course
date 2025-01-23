@@ -1,4 +1,4 @@
-import reactLogo from '../../assets/react.svg'
+import reactLogo from './react.svg'
 export default function Navbar() {
     return (
         <header>

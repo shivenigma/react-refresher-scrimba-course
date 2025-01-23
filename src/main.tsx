@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import {BrowserRouter, Route, Routes} from 'react-router';
 import Index from './components/index';
-import ReactFacts from './components/React facts/ReactFacts'
+import ReactFacts from './components/react facts/ReactFacts'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
