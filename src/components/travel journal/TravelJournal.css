@@ -30,10 +30,16 @@
     padding-bottom: 18px;
     border-bottom: solid 1px #F5F5F5;
 }
-.travel-entry-item > img {
-    height: 168px;
+.travel-entry-image {
     width: 125px;
+    height: 168px;
+    overflow: hidden;
     border-radius: 5px;
+}
+.travel-entry-image > img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 .travel-entry-heading {
     display: flex;

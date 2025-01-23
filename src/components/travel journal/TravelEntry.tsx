@@ -3,7 +3,9 @@ import marker from './marker.png';
 export default function TravelEntry() {
 return (
     <article className="travel-entry-item">
-        <img src="https://scrimba.com/links/travel-journal-japan-image-url" alt="Japan"/>
+        <div className="travel-entry-image">
+            <img src="https://scrimba.com/links/travel-journal-japan-image-url" alt="Japan"/>
+        </div>
         <div className="travel-entry-container">
             <div>
                 <div className="travel-entry-heading">
