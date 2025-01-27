@@ -9,12 +9,7 @@ export default function TravelJournal() {
             <div className="travel-container">
                 {data.map(item => {
                     return <TravelEntry
-                        img={item.img}
-                        title={item.title}
-                        country={item.country}
-                        googleMapsLink={item.googleMapsLink}
-                        dates={item.dates}
-                        text={item.text}
+                        {...item}
                         key={item.id}
                     >
                     </TravelEntry>
