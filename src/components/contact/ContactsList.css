@@ -1,0 +1,29 @@
+.app-body-contacts {
+    background-color: whitesmoke;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px
+}
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    height: fit-content;
+    .contact-thumb {
+        width: 200px;
+    }
+    .contact-info {
+        display: flex;
+        align-items: center;
+         p {
+             margin: 5px 0 5px 10px;
+          }
+         img {
+             width: 15px;
+         }
+    }
+}
