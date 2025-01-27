@@ -19,8 +19,9 @@ export default function ContactsList() {
     ]
     return (
         <div className="app-body-contacts">
-            <Contact data={data[0]}></Contact>
-            <Contact data={data[1]}></Contact>
+            {data.map((item, index) => {
+                return <Contact data={item} key={index}></Contact>
+            })}
         </div>
     )
 }
