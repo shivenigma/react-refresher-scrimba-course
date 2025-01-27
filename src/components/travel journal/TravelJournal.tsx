@@ -1,7 +1,7 @@
 import './TravelJournal.css'
 import Header from './Header';
 import TravelEntry from './TravelEntry';
-import data from './travelData'
+import {data} from './travelData'
 export default function TravelJournal() {
     return (
         <div className="app-body-travel">

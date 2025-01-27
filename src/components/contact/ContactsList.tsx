@@ -1,8 +1,8 @@
 import {Contact} from './Contact';
 import cat from './assets/cat.png'
-
+import {ContactItem} from './types'
 export default function ContactsList() {
-    const data = [
+    const data: ContactItem[] = [
         {
         name: 'Mr. Whiskerson',
         phone: '(212) 555-1234',

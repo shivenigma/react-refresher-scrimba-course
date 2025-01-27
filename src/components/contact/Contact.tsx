@@ -1,8 +1,9 @@
 import mail from './assets/mail.png';
 import phone from './assets/phone.png';
 import './ContactsList.css'
+import {ContactItem} from './types';
 
-export function Contact({data}) {
+export function Contact({data}: {data: ContactItem}) {
     return (
         <article className="contact-card">
             <img className="contact-thumb" src={data?.img} alt="Mr. Whiskerson"/>

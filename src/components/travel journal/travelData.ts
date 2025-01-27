@@ -1,4 +1,6 @@
-export default [
+import {TravelEntryItem} from './types';
+
+export const data: TravelEntryItem[] =  [
     {
         id: 1,
         img: {

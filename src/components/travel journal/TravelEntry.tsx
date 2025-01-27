@@ -1,6 +1,6 @@
 import marker from './marker.png';
-
-export default function TravelEntry({img, title, country, googleMapsLink, dates, text}) {
+import {TravelEntryItem} from './types';
+export default function TravelEntry({img, title, country, googleMapsLink, dates, text}: TravelEntryItem ) {
 return (
     <article className="travel-entry-item">
         <div className="travel-entry-image">
