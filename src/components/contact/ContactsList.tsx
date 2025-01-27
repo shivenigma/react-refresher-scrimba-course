@@ -9,19 +9,28 @@ export default function ContactsList() {
         email: 'wishkaz@gmail.com',
         img: cat
     },
-        {
+    {
         name: 'Mr. Doo',
         phone: '(111) 555-1234',
         email: 'DooCat@gmail.com',
         img: cat
     },
-
+    {
+        name: 'Mr. Doo',
+        phone: '(111) 555-1234',
+        email: 'DooCat@gmail.com',
+        img: cat
+    },
+    {
+        name: 'Mr. Doo',
+        phone: '(111) 555-1234',
+        email: 'DooCat@gmail.com',
+        img: cat
+    },
     ]
     return (
         <div className="app-body-contacts">
-            {data.map((item, index) => {
-                return <Contact data={item} key={index}></Contact>
-            })}
+            {data.map((item, index) => <Contact data={item} key={index}></Contact> )}
         </div>
     )
 }
