@@ -1,0 +1,119 @@
+.app-body-chef {
+    background: #FAFAF8;
+}
+.chef-header {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 111px;
+    width: auto;
+    box-shadow: 0px 1px 2px 0px #0000000F;
+    box-shadow: 0px 1px 3px 0px #0000001A;
+
+}
+.chef-header > h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.chef-header > img {
+    width: 43px;
+}
+.add-ingredient-form {
+    padding: 67px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.add-ingredient-form > input {
+    min-width: 150px;
+    max-width: 399px;
+    flex-grow: 1;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    padding: 9px 13px;
+}
+.add-ingredient-form > button {
+
+    font-family: inherit;
+    background: #141413;
+    color: #ffffff;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    padding: 9px 17px;
+    border-radius: 6px;
+    width: 183px;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.add-ingredient-form > button:before {
+    content: "+";
+    margin-right: 5px;
+}
+.ingredients-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ingredients-list > h1  {
+    width: 500px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 24px 0;
+    line-height: 38px;
+}
+.ingredients-list > ul {
+    text-align: left;
+    width: 500px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #475467;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.ingredient-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    background: #F0EFEB;
+    padding: 30px 40px ;
+    margin: 60px;
+    border-radius: 8px;
+}
+.ingredient-action-content > h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 0;
+    color: #141413;
+}
+.ingredient-action-content > h5 {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: Inter;
+}
+.ingredient-submit {
+    background: #D17557;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border: none;
+    border-radius: 6px;
+    height: 38px;
+    color: #FAFAF8;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 9px 17px;
+}
